@@ -1,0 +1,12 @@
+package mainClasses;
+
+public class Couverture extends Article {
+	
+	static int couverturesDisponibles = 0;
+
+	public Couverture(int idArticle) {
+		super(idArticle);
+		couverturesDisponibles++;
+	}
+
+}
